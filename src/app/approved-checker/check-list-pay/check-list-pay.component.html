@@ -1,0 +1,184 @@
+<app-header-checker></app-header-checker>
+<div
+  class="main-content"
+  style="background-color: #f0f9ff; height: 100vh; width: 100%"
+>
+  <div class="title">
+    <div class="title-container">
+      <div class="title-text" style="color: #6d83a7; font-weight: 600">
+        Beneficiary management
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="beneficiary-container">
+      <div class="beneficary-content">
+        <h1>Quản lý người thụ hưởng</h1>
+        <div class="beneficary-header">
+          <span class="cnt"><span>Thanh toán và chuyển tiền</span></span>
+        </div>
+        <div class="beneficary-box">
+          <div class="beneficary-content" id="">
+            <!-- <div class="search-container">
+              <form action="#">
+                <input type="text" placeholder="Tìm kiếm.." name="search" />
+                <button type="submit">
+                  <i class="fa fa-search" style="color: white"></i>
+                </button>
+              </form>
+              <div class="dropdown-fillter">
+                <button
+                  class="btn"
+                  type="button"
+                  style="color: white; font-weight: bold; border-radius: 25px"
+                >
+                  <i class="fas fa-light fa-filter"></i>
+                  Bộ lọc
+                </button>
+              </div>
+            </div> -->
+            <!-- <div class="btnbutton">
+              <button
+                class="btn"
+                type="button"
+                style="color: white; font-weight: bold"
+              >
+                <i class="fas fa-light fa-plus"></i>
+                Thêm mới
+              </button>
+            </div> -->
+          </div>
+          <!-- Xuất hiện khi nhấn vào button bộ lọc -->
+          <div class="condition-fillter"></div>
+          <!-- Ko call được API -->
+          <!-- <div class="table-emty-container">
+            <div class="table-emty">
+              <div class="empty-data">
+                <div class="emty-img">
+                  <img src="./../../assets/images/empty.jpg" alt="" />
+                </div>
+                <span class="empty-content" style="color: #6d83a7"
+                  >Danh sách thụ hưởng trống</span
+                >
+              </div>
+            </div>
+          </div> -->
+          <!-- Truy vấn không có kết quả -->
+          <!-- <div class="table-emty-container">
+            <div class="table-emty">
+              <div class="empty-data">
+                <div class="emty-img">
+                  <img src="./../../assets/images/empty-filter.svg" alt="" />
+                </div>
+                <div class="empty-text">
+                  <span
+                    class="empty-content"
+                    style="color: #6d83a7; font-weight: 600"
+                    >Không tìm được kết quả phù hợp</span
+                  >
+                  <br />
+                  <span class="empty-content" style="color: #6d83a7"
+                    >Vui lòng nhập tìm kiếm khác</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- Hiển thị danh sách -->
+          <div class="beneficary-list-box">
+            <div class="check-box">
+              <label for="" class="checkbox-label">
+                <input
+                  class="checkbox-input"
+                  type="checkbox"
+                  aria-checked="false"
+                  aria-disabled="false"
+                  tabindex="0"
+                  role="checkbox"
+                  aria-label="Click here to select all"
+                />
+              </label>
+            </div>
+            <button class="clear-btn btn-sm">Xóa</button>
+            <div class="btnbutton">
+              <button
+                class="btn"
+                type="button"
+                style="color: white; font-weight: bold"
+              >
+                <i class="fas fa-light fa-plus"></i>
+                Thêm mới
+              </button>
+            </div>
+          </div>
+          <div class="table-list">
+            <table class="table table-borderless">
+              <td class="row-01" rowspan="2">
+                <div class="ticket">
+                  <label for="" class="checkbox-label">
+                    <input
+                      class="checkbox-input"
+                      type="checkbox"
+                      aria-checked="false"
+                      aria-disabled="false"
+                      tabindex="0"
+                      role="checkbox"
+                      aria-label="Click here to select all"
+                    />
+                  </label>
+                </div>
+              </td>
+              <td class="row-02">
+                <img src="../../assets/images/BIDV.png" alt="" />
+              </td>
+              <td class="row-03">
+                <tr>
+                  <td>Tên chủ thẻ:</td>
+                  <td>CONG TY TNHH TUDO PHUC LOC THO VN</td>
+                </tr>
+                <tr>
+                  <td>Số thẻ:</td>
+                  <td>12344567</td>
+                </tr>
+                <tr>
+                  <td>Tên ngân hàng thụ hưởng:</td>
+                  <td>
+                    Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam
+                  </td>
+                </tr>
+              </td>
+              <td class="row-04">
+                <div class="action">
+                  <button class="update">
+                    <i class="fas fa-sync-alt"></i>
+                  </button>
+                  <button class="delete">
+                    <i class="fas fa-trash"></i>
+                  </button>
+                </div>
+              </td>
+            </table>
+          </div>
+          <!-- phân trang > 5 ng hưởng thụ -->
+          <div class="container-p">
+            <div class="show" style="color: #6d83a7; font-weight: 400">
+              Đã hiển thị 1-5 trên 100 kết quả
+            </div>
+
+            <div class="pagination">
+              <a href="#">&laquo;</a>
+              <a href="#">1</a>
+              <a class="active" href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">6</a>
+              <a href="#">7</a>
+              <a href="#">&raquo;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

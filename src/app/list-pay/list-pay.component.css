@@ -1,0 +1,243 @@
+.title {
+    display: flex;
+    margin-left: 26px;
+}
+
+.title-container {
+    display: flex;
+    align-content: center;
+}
+
+.beneficiary-container {
+    margin: 26px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.beneficary-header {
+    border: 1px solid aqua;
+    width: max-content;
+    border-radius: 25px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cnt {
+    padding: 5px 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.beneficary-box {
+    background-color: white!important;
+}
+
+.beneficary-box .beneficary-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.beneficary-box .search-container {
+    /* float: right; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.beneficary-box input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.beneficary-box .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: blueviolet;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.beneficary-box .search-container button:hover,
+.btn:hover {
+    border: 1px solid aqua;
+    background-color: rgb(69, 12, 225);
+    /* background: var(--alias-primary-200, #DAE4FF); */
+}
+
+.beneficary-box .search-container .btn:hover,
+.btnbutton .btn:hover {
+    border-radius: 25px;
+}
+
+
+/* .beneficary-box .search-container button .fa-search:hover {
+    color: rgb(69, 12, 225);
+} */
+
+.beneficary-box .search-container input:hover {
+    border: 1px solid aqua
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+    padding-left: 16px;
+}
+
+.btnbutton {
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.table-emty-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.75rem;
+}
+
+.emty-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.empty-text {
+    display: block;
+    letter-spacing: 0.25px
+}
+
+.beneficary-list-box {
+    padding: 12px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.clear-btn {
+    border: 0;
+    letter-spacing: 0.25px;
+    margin: 8px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: var(--alias-primary-200, #DAE4FF);
+    color: blueviolet;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
+
+.table-list {
+    padding: 0px 20px;
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid rgb(188, 183, 193);
+    border-radius: 5px;
+}
+
+.table td {
+    /* text-align: center; */
+    vertical-align: middle;
+}
+
+.row-01 {
+    width: 5%;
+}
+
+.row-02 {
+    width: 10%;
+}
+
+.row-03 {
+    width: 75%;
+}
+
+.row-04 {
+    width: 10%;
+}
+
+
+/* .row-01,
+.row-02,
+.row-03,
+.row-04 {
+    padding: 10px;
+} */
+
+.checkbox-label,
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ticket,
+.action {
+    width: 100%;
+}
+
+.action .update,
+.action .delete {
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #6d83a7;
+}
+
+tr td {
+    font-size: 14px;
+    color: #6d83a7;
+    font-style: normal;
+}
+
+.container-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.pagination {
+    /* width: 400px; */
+    margin-left: 50px;
+}
+
+.pagination a {
+    display: block;
+    color: #6d83a7;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: aqua;
+    color: #6d83a7;
+    font-weight: 600;
+    border-radius: 100%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 100%;
+}
